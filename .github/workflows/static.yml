@@ -11,9 +11,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       - name: Deploy to GitHub Pages
-        uses: portfolio/github_portfolio_justin.html@v4
+        uses: portfolio/justinongway/release@v6
         with:
           folder: .  # This indicates t
