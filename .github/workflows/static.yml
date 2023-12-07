@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
-
       - name: Deploy to GitHub Pages
-        uses: justinongway/portfolio/profile_JustinOngWay@v7
         with:
-          folder: profile_JustinOngWay  # This indicates t
+          folder: profile_JustinOngWay
